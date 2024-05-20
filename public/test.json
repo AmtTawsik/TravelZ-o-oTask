@@ -1,0 +1,1701 @@
+{
+    "success": true,
+    "result": [
+        {
+            "id": 1,
+            "pricingSource": "ADVJR1",
+            "legs": [
+                {
+                    "ref": 18,
+                    "segment": {
+                        "departureDate": "2024-06-01",
+                        "departureLocation": "DAC",
+                        "arrivalLocation": "DXB"
+                    },
+                    "segmentDetails": [
+                        {
+                            "id": 19,
+                            "frequency": "SMTWTFS",
+                            "stopCount": 0,
+                            "eTicketable": true,
+                            "totalMilesFlown": 1173,
+                            "elapsedTime": 200,
+                            "departureDateAdjustment": 0,
+                            "origin": {
+                                "airport": "DAC",
+                                "city": "DAC",
+                                "country": "BD",
+                                "terminal": "1",
+                                "dateTime": "2024-06-01 11:45:00",
+                                "timeZone": "+06:00"
+                            },
+                            "destination": {
+                                "airport": "BOM",
+                                "city": "BOM",
+                                "country": "IN",
+                                "terminal": "2",
+                                "dateTime": "2024-06-01 14:35:00",
+                                "timeZone": "+05:30"
+                            },
+                            "fleet": {
+                                "marketing": "UK",
+                                "marketingFlightNumber": 184,
+                                "operating": "UK",
+                                "operatingFlightNumber": 184,
+                                "equipment": {
+                                    "code": "320",
+                                    "typeForFirstLeg": "N",
+                                    "typeForLastLeg": "N"
+                                }
+                            }
+                        },
+                        {
+                            "id": 36,
+                            "frequency": "SMTWTFS",
+                            "stopCount": 0,
+                            "eTicketable": true,
+                            "totalMilesFlown": 1198,
+                            "elapsedTime": 200,
+                            "departureDateAdjustment": 0,
+                            "origin": {
+                                "airport": "BOM",
+                                "city": "BOM",
+                                "country": "IN",
+                                "terminal": "2",
+                                "dateTime": "2024-06-01 16:25:00",
+                                "timeZone": "+05:30"
+                            },
+                            "destination": {
+                                "airport": "DXB",
+                                "city": "DXB",
+                                "country": "AE",
+                                "terminal": "1",
+                                "dateTime": "2024-06-01 18:15:00",
+                                "timeZone": "+04:00"
+                            },
+                            "fleet": {
+                                "marketing": "UK",
+                                "marketingFlightNumber": 201,
+                                "operating": "UK",
+                                "operatingFlightNumber": 201,
+                                "equipment": {
+                                    "code": "321",
+                                    "typeForFirstLeg": "N",
+                                    "typeForLastLeg": "N"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "pricingInformation": [
+                {
+                    "pricingSubsource": "HPIS",
+                    "fare": {
+                        "validatingCarrierCode": "UK",
+                        "vita": true,
+                        "eTicketable": true,
+                        "lastTicketDate": "2024-06-01",
+                        "lastTicketTime": "11:45",
+                        "governingCarriers": "UK",
+                        "passengerInfoList": [
+                            {
+                                "passengerInfo": {
+                                    "passengerType": "ADT",
+                                    "passengerNumber": 1,
+                                    "nonRefundable": false,
+                                    "fareComponents": [
+                                        {
+                                            "ref": 7,
+                                            "beginAirport": "DAC",
+                                            "endAirport": "DXB",
+                                            "segments": [
+                                                {
+                                                    "segment": {
+                                                        "bookingCode": "V",
+                                                        "cabinCode": "Y",
+                                                        "mealCode": "M",
+                                                        "seatsAvailable": 9
+                                                    }
+                                                },
+                                                {
+                                                    "segment": {
+                                                        "bookingCode": "V",
+                                                        "cabinCode": "Y",
+                                                        "mealCode": "M",
+                                                        "seatsAvailable": 9,
+                                                        "availabilityBreak": true
+                                                    }
+                                                }
+                                            ],
+                                            "details": {
+                                                "id": 7,
+                                                "governingCarrier": "UK",
+                                                "fareAmount": 177.98,
+                                                "fareCurrency": "NUC",
+                                                "fareBasisCode": "VOINYV\/YV",
+                                                "farePassengerType": "ADT",
+                                                "publishedFareAmount": 14835,
+                                                "publishedFareCurrency": "INR",
+                                                "directionality": "FROM",
+                                                "applicablePricingCategories": "4 5 8 9 10 12 15 16 17 23 31 33",
+                                                "vendorCode": "ATP",
+                                                "fareTypeBitmap": "00",
+                                                "fareType": "ER",
+                                                "fareTariff": "33",
+                                                "fareRule": "IN10",
+                                                "cabinCode": "Y",
+                                                "segments": [
+                                                    {
+                                                        "segment": {}
+                                                    },
+                                                    {
+                                                        "segment": {
+                                                            "stopover": true,
+                                                            "surcharges": [
+                                                                {
+                                                                    "amount": 38,
+                                                                    "currency": "NUC",
+                                                                    "description": "MISCELLANEOUS\/OTHER",
+                                                                    "type": "Q"
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "taxes": [
+                                        {
+                                            "ref": 69
+                                        },
+                                        {
+                                            "ref": 49
+                                        },
+                                        {
+                                            "ref": 48
+                                        },
+                                        {
+                                            "ref": 32
+                                        },
+                                        {
+                                            "ref": 23
+                                        },
+                                        {
+                                            "ref": 11
+                                        },
+                                        {
+                                            "ref": 33
+                                        },
+                                        {
+                                            "ref": 72
+                                        },
+                                        {
+                                            "ref": 41
+                                        }
+                                    ],
+                                    "taxSummaries": [
+                                        {
+                                            "ref": 61
+                                        },
+                                        {
+                                            "ref": 49
+                                        },
+                                        {
+                                            "ref": 9
+                                        },
+                                        {
+                                            "ref": 27
+                                        },
+                                        {
+                                            "ref": 19
+                                        },
+                                        {
+                                            "ref": 56
+                                        },
+                                        {
+                                            "ref": 28
+                                        },
+                                        {
+                                            "ref": 36
+                                        }
+                                    ],
+                                    "currencyConversion": {
+                                        "from": "USD",
+                                        "to": "BDT",
+                                        "exchangeRateUsed": 117
+                                    },
+                                    "passengerTotalFare": {
+                                        "totalFare": 34922,
+                                        "totalTaxAmount": 9650,
+                                        "currency": "BDT",
+                                        "baseFareAmount": 216,
+                                        "baseFareCurrency": "USD",
+                                        "equivalentAmount": 25272,
+                                        "equivalentCurrency": "BDT",
+                                        "constructionAmount": 215.98,
+                                        "constructionCurrency": "NUC",
+                                        "exchangeRateOne": 1,
+                                        "discountPercentage": "5.00",
+                                        "discountAmount": 1264,
+                                        "netBaseFareAmount": 24008.4,
+                                        "netTotalFareAmount": 33658.4
+                                    },
+                                    "baggageInformation": [
+                                        {
+                                            "provisionType": "A",
+                                            "airlineCode": "UK",
+                                            "segments": [
+                                                {
+                                                    "id": 0
+                                                },
+                                                {
+                                                    "id": 1
+                                                }
+                                            ],
+                                            "allowance": {
+                                                "ref": 7
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "totalFare": {
+                            "totalPrice": 34922,
+                            "totalTaxAmount": 9650,
+                            "currency": "BDT",
+                            "baseFareAmount": 216,
+                            "baseFareCurrency": "USD",
+                            "constructionAmount": 215.98,
+                            "constructionCurrency": "NUC",
+                            "equivalentAmount": 25272,
+                            "equivalentCurrency": "BDT"
+                        }
+                    }
+                }
+            ],
+            "diversitySwapper": {
+                "weighedPrice": 55464.353
+            },
+            "nonRefundable": false,
+            "validatingCarrierCode": "UK",
+            "priceBreakDownWithMarkup": {
+                "userType": 3,
+                "airlineId": "715",
+                "airlineCode": "UK",
+                "commission_percentage": "5.00",
+                "commission_type": "outbound",
+                "service_charge": "200",
+                "totalFare": {
+                    "netTotalFareAmount": 33963,
+                    "netTotalBaseFareAmount": 25272,
+                    "netTotalDiscountAmount": 1264,
+                    "netTotalGrossFareAmount": 34922,
+                    "netTotalFareTaxAmount": 9955
+                },
+                "fareDetails": [
+                    {
+                        "passengerInfo": {
+                            "passengerType": "ADT",
+                            "passengerNumber": 1,
+                            "nonRefundable": false,
+                            "fareComponents": [
+                                {
+                                    "ref": 7,
+                                    "beginAirport": "DAC",
+                                    "endAirport": "DXB",
+                                    "segments": [
+                                        {
+                                            "segment": {
+                                                "bookingCode": "V",
+                                                "cabinCode": "Y",
+                                                "mealCode": "M",
+                                                "seatsAvailable": 9
+                                            }
+                                        },
+                                        {
+                                            "segment": {
+                                                "bookingCode": "V",
+                                                "cabinCode": "Y",
+                                                "mealCode": "M",
+                                                "seatsAvailable": 9,
+                                                "availabilityBreak": true
+                                            }
+                                        }
+                                    ],
+                                    "details": {
+                                        "id": 7,
+                                        "governingCarrier": "UK",
+                                        "fareAmount": 177.98,
+                                        "fareCurrency": "NUC",
+                                        "fareBasisCode": "VOINYV\/YV",
+                                        "farePassengerType": "ADT",
+                                        "publishedFareAmount": 14835,
+                                        "publishedFareCurrency": "INR",
+                                        "directionality": "FROM",
+                                        "applicablePricingCategories": "4 5 8 9 10 12 15 16 17 23 31 33",
+                                        "vendorCode": "ATP",
+                                        "fareTypeBitmap": "00",
+                                        "fareType": "ER",
+                                        "fareTariff": "33",
+                                        "fareRule": "IN10",
+                                        "cabinCode": "Y",
+                                        "segments": [
+                                            {
+                                                "segment": {}
+                                            },
+                                            {
+                                                "segment": {
+                                                    "stopover": true,
+                                                    "surcharges": [
+                                                        {
+                                                            "amount": 38,
+                                                            "currency": "NUC",
+                                                            "description": "MISCELLANEOUS\/OTHER",
+                                                            "type": "Q"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "taxes": [
+                                {
+                                    "ref": 69
+                                },
+                                {
+                                    "ref": 49
+                                },
+                                {
+                                    "ref": 48
+                                },
+                                {
+                                    "ref": 32
+                                },
+                                {
+                                    "ref": 23
+                                },
+                                {
+                                    "ref": 11
+                                },
+                                {
+                                    "ref": 33
+                                },
+                                {
+                                    "ref": 72
+                                },
+                                {
+                                    "ref": 41
+                                }
+                            ],
+                            "taxSummaries": [
+                                {
+                                    "ref": 61
+                                },
+                                {
+                                    "ref": 49
+                                },
+                                {
+                                    "ref": 9
+                                },
+                                {
+                                    "ref": 27
+                                },
+                                {
+                                    "ref": 19
+                                },
+                                {
+                                    "ref": 56
+                                },
+                                {
+                                    "ref": 28
+                                },
+                                {
+                                    "ref": 36
+                                }
+                            ],
+                            "currencyConversion": {
+                                "from": "USD",
+                                "to": "BDT",
+                                "exchangeRateUsed": 117
+                            },
+                            "passengerTotalFare": {
+                                "totalFare": 34922,
+                                "totalTaxAmount": 9650,
+                                "currency": "BDT",
+                                "baseFareAmount": 216,
+                                "baseFareCurrency": "USD",
+                                "equivalentAmount": 25272,
+                                "equivalentCurrency": "BDT",
+                                "constructionAmount": 215.98,
+                                "constructionCurrency": "NUC",
+                                "exchangeRateOne": 1,
+                                "discountPercentage": "5.00",
+                                "discountAmount": 1264,
+                                "netBaseFareAmount": 24008.4,
+                                "netTotalFareAmount": 33658.4
+                            },
+                            "baggageInformation": [
+                                {
+                                    "provisionType": "A",
+                                    "airlineCode": "UK",
+                                    "segments": [
+                                        {
+                                            "id": 0
+                                        },
+                                        {
+                                            "id": 1
+                                        }
+                                    ],
+                                    "allowance": {
+                                        "ref": 7
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "priceBreakDown": [
+                {
+                    "passengerInfo": {
+                        "passengerType": "ADT",
+                        "passengerNumber": 1,
+                        "nonRefundable": false,
+                        "fareComponents": [
+                            {
+                                "ref": 7,
+                                "beginAirport": "DAC",
+                                "endAirport": "DXB",
+                                "segments": [
+                                    {
+                                        "segment": {
+                                            "bookingCode": "V",
+                                            "cabinCode": "Y",
+                                            "mealCode": "M",
+                                            "seatsAvailable": 9
+                                        }
+                                    },
+                                    {
+                                        "segment": {
+                                            "bookingCode": "V",
+                                            "cabinCode": "Y",
+                                            "mealCode": "M",
+                                            "seatsAvailable": 9,
+                                            "availabilityBreak": true
+                                        }
+                                    }
+                                ],
+                                "details": {
+                                    "id": 7,
+                                    "governingCarrier": "UK",
+                                    "fareAmount": 177.98,
+                                    "fareCurrency": "NUC",
+                                    "fareBasisCode": "VOINYV\/YV",
+                                    "farePassengerType": "ADT",
+                                    "publishedFareAmount": 14835,
+                                    "publishedFareCurrency": "INR",
+                                    "directionality": "FROM",
+                                    "applicablePricingCategories": "4 5 8 9 10 12 15 16 17 23 31 33",
+                                    "vendorCode": "ATP",
+                                    "fareTypeBitmap": "00",
+                                    "fareType": "ER",
+                                    "fareTariff": "33",
+                                    "fareRule": "IN10",
+                                    "cabinCode": "Y",
+                                    "segments": [
+                                        {
+                                            "segment": {}
+                                        },
+                                        {
+                                            "segment": {
+                                                "stopover": true,
+                                                "surcharges": [
+                                                    {
+                                                        "amount": 38,
+                                                        "currency": "NUC",
+                                                        "description": "MISCELLANEOUS\/OTHER",
+                                                        "type": "Q"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "taxes": [
+                            {
+                                "ref": 69
+                            },
+                            {
+                                "ref": 49
+                            },
+                            {
+                                "ref": 48
+                            },
+                            {
+                                "ref": 32
+                            },
+                            {
+                                "ref": 23
+                            },
+                            {
+                                "ref": 11
+                            },
+                            {
+                                "ref": 33
+                            },
+                            {
+                                "ref": 72
+                            },
+                            {
+                                "ref": 41
+                            }
+                        ],
+                        "taxSummaries": [
+                            {
+                                "ref": 61
+                            },
+                            {
+                                "ref": 49
+                            },
+                            {
+                                "ref": 9
+                            },
+                            {
+                                "ref": 27
+                            },
+                            {
+                                "ref": 19
+                            },
+                            {
+                                "ref": 56
+                            },
+                            {
+                                "ref": 28
+                            },
+                            {
+                                "ref": 36
+                            }
+                        ],
+                        "currencyConversion": {
+                            "from": "USD",
+                            "to": "BDT",
+                            "exchangeRateUsed": 117
+                        },
+                        "passengerTotalFare": {
+                            "totalFare": 34922,
+                            "totalTaxAmount": 9650,
+                            "currency": "BDT",
+                            "baseFareAmount": 216,
+                            "baseFareCurrency": "USD",
+                            "equivalentAmount": 25272,
+                            "equivalentCurrency": "BDT",
+                            "constructionAmount": 215.98,
+                            "constructionCurrency": "NUC",
+                            "exchangeRateOne": 1,
+                            "discountPercentage": "5.00",
+                            "discountAmount": 1264,
+                            "netBaseFareAmount": 24008.4,
+                            "netTotalFareAmount": 33658.4
+                        },
+                        "baggageInformation": [
+                            {
+                                "provisionType": "A",
+                                "airlineCode": "UK",
+                                "segments": [
+                                    {
+                                        "id": 0
+                                    },
+                                    {
+                                        "id": 1
+                                    }
+                                ],
+                                "allowance": {
+                                    "ref": 7
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "totalPrice": {
+                "totalPrice": 34922,
+                "totalTaxAmount": 9650,
+                "currency": "BDT",
+                "baseFareAmount": 216,
+                "baseFareCurrency": "USD",
+                "constructionAmount": 215.98,
+                "constructionCurrency": "NUC",
+                "equivalentAmount": 25272,
+                "equivalentCurrency": "BDT"
+            },
+            "baggageInfo": [
+                {
+                    "paxType": "ADT",
+                    "details": [
+                        {
+                            "id": 7,
+                            "weight": 30,
+                            "unit": "kg",
+                            "airlineCode": "UK",
+                            "pieceCount": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "pricingSource": "ADVJR1",
+            "legs": [
+                {
+                    "ref": 40,
+                    "segment": {
+                        "departureDate": "2024-06-01",
+                        "departureLocation": "DAC",
+                        "arrivalLocation": "DXB"
+                    },
+                    "segmentDetails": [
+                        {
+                            "id": 12,
+                            "frequency": "******S",
+                            "stopCount": 0,
+                            "eTicketable": true,
+                            "totalMilesFlown": 2202,
+                            "elapsedTime": 305,
+                            "departureDateAdjustment": 0,
+                            "origin": {
+                                "airport": "DAC",
+                                "city": "DAC",
+                                "country": "BD",
+                                "terminal": "1",
+                                "dateTime": "2024-06-01 22:20:00",
+                                "timeZone": "+06:00"
+                            },
+                            "destination": {
+                                "airport": "DXB",
+                                "city": "DXB",
+                                "country": "AE",
+                                "terminal": "1",
+                                "dateTime": "2024-06-01 01:25:00",
+                                "timeZone": "+04:00"
+                            },
+                            "fleet": {
+                                "marketing": "BS",
+                                "marketingFlightNumber": 341,
+                                "operating": "BS",
+                                "operatingFlightNumber": 341,
+                                "equipment": {
+                                    "code": "333",
+                                    "typeForFirstLeg": "W",
+                                    "typeForLastLeg": "W"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "pricingInformation": [
+                {
+                    "pricingSubsource": "HPIS",
+                    "fare": {
+                        "validatingCarrierCode": "BS",
+                        "vita": true,
+                        "eTicketable": true,
+                        "lastTicketDate": "2024-05-16",
+                        "lastTicketTime": "23:59",
+                        "governingCarriers": "BS",
+                        "passengerInfoList": [
+                            {
+                                "passengerInfo": {
+                                    "passengerType": "ADT",
+                                    "passengerNumber": 1,
+                                    "nonRefundable": false,
+                                    "fareComponents": [
+                                        {
+                                            "ref": 1,
+                                            "beginAirport": "DAC",
+                                            "endAirport": "DXB",
+                                            "segments": [
+                                                {
+                                                    "segment": {
+                                                        "bookingCode": "S",
+                                                        "cabinCode": "Y",
+                                                        "seatsAvailable": 9,
+                                                        "availabilityBreak": true
+                                                    }
+                                                }
+                                            ],
+                                            "details": {
+                                                "id": 1,
+                                                "governingCarrier": "BS",
+                                                "fareAmount": 220,
+                                                "fareCurrency": "NUC",
+                                                "fareBasisCode": "SBDXBO",
+                                                "farePassengerType": "ADT",
+                                                "publishedFareAmount": 220,
+                                                "publishedFareCurrency": "USD",
+                                                "directionality": "FROM",
+                                                "applicablePricingCategories": "4 5 8 10 14 15 16 31 33",
+                                                "vendorCode": "ATP",
+                                                "fareTypeBitmap": "00",
+                                                "fareType": "ER",
+                                                "fareTariff": "33",
+                                                "fareRule": "ME12",
+                                                "cabinCode": "Y",
+                                                "segments": [
+                                                    {
+                                                        "segment": {
+                                                            "stopover": true
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "taxes": [
+                                        {
+                                            "ref": 1
+                                        },
+                                        {
+                                            "ref": 69
+                                        },
+                                        {
+                                            "ref": 49
+                                        },
+                                        {
+                                            "ref": 48
+                                        },
+                                        {
+                                            "ref": 32
+                                        },
+                                        {
+                                            "ref": 23
+                                        },
+                                        {
+                                            "ref": 11
+                                        }
+                                    ],
+                                    "taxSummaries": [
+                                        {
+                                            "ref": 61
+                                        },
+                                        {
+                                            "ref": 49
+                                        },
+                                        {
+                                            "ref": 9
+                                        },
+                                        {
+                                            "ref": 27
+                                        },
+                                        {
+                                            "ref": 19
+                                        },
+                                        {
+                                            "ref": 56
+                                        },
+                                        {
+                                            "ref": 1
+                                        }
+                                    ],
+                                    "currencyConversion": {
+                                        "from": "USD",
+                                        "to": "BDT",
+                                        "exchangeRateUsed": 117
+                                    },
+                                    "passengerTotalFare": {
+                                        "totalFare": 35166,
+                                        "totalTaxAmount": 9426,
+                                        "currency": "BDT",
+                                        "baseFareAmount": 220,
+                                        "baseFareCurrency": "USD",
+                                        "equivalentAmount": 25740,
+                                        "equivalentCurrency": "BDT",
+                                        "constructionAmount": 220,
+                                        "constructionCurrency": "NUC",
+                                        "exchangeRateOne": 1,
+                                        "discountPercentage": "7.00",
+                                        "discountAmount": 1802,
+                                        "netBaseFareAmount": 23938.2,
+                                        "netTotalFareAmount": 33364.2
+                                    },
+                                    "baggageInformation": [
+                                        {
+                                            "provisionType": "A",
+                                            "airlineCode": "BS",
+                                            "segments": [
+                                                {
+                                                    "id": 0
+                                                }
+                                            ],
+                                            "allowance": {
+                                                "ref": 16
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "totalFare": {
+                            "totalPrice": 35166,
+                            "totalTaxAmount": 9426,
+                            "currency": "BDT",
+                            "baseFareAmount": 220,
+                            "baseFareCurrency": "USD",
+                            "constructionAmount": 220,
+                            "constructionCurrency": "NUC",
+                            "equivalentAmount": 25740,
+                            "equivalentCurrency": "BDT"
+                        }
+                    }
+                }
+            ],
+            "diversitySwapper": {
+                "weighedPrice": 12106.328
+            },
+            "nonRefundable": false,
+            "validatingCarrierCode": "BS",
+            "priceBreakDownWithMarkup": {
+                "userType": 3,
+                "airlineId": "204",
+                "airlineCode": "BS",
+                "commission_percentage": "7.00",
+                "commission_type": "outbound",
+                "service_charge": "200",
+                "totalFare": {
+                    "netTotalFareAmount": 33670,
+                    "netTotalBaseFareAmount": 25740,
+                    "netTotalDiscountAmount": 1802,
+                    "netTotalGrossFareAmount": 35166,
+                    "netTotalFareTaxAmount": 9731
+                },
+                "fareDetails": [
+                    {
+                        "passengerInfo": {
+                            "passengerType": "ADT",
+                            "passengerNumber": 1,
+                            "nonRefundable": false,
+                            "fareComponents": [
+                                {
+                                    "ref": 1,
+                                    "beginAirport": "DAC",
+                                    "endAirport": "DXB",
+                                    "segments": [
+                                        {
+                                            "segment": {
+                                                "bookingCode": "S",
+                                                "cabinCode": "Y",
+                                                "seatsAvailable": 9,
+                                                "availabilityBreak": true
+                                            }
+                                        }
+                                    ],
+                                    "details": {
+                                        "id": 1,
+                                        "governingCarrier": "BS",
+                                        "fareAmount": 220,
+                                        "fareCurrency": "NUC",
+                                        "fareBasisCode": "SBDXBO",
+                                        "farePassengerType": "ADT",
+                                        "publishedFareAmount": 220,
+                                        "publishedFareCurrency": "USD",
+                                        "directionality": "FROM",
+                                        "applicablePricingCategories": "4 5 8 10 14 15 16 31 33",
+                                        "vendorCode": "ATP",
+                                        "fareTypeBitmap": "00",
+                                        "fareType": "ER",
+                                        "fareTariff": "33",
+                                        "fareRule": "ME12",
+                                        "cabinCode": "Y",
+                                        "segments": [
+                                            {
+                                                "segment": {
+                                                    "stopover": true
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "taxes": [
+                                {
+                                    "ref": 1
+                                },
+                                {
+                                    "ref": 69
+                                },
+                                {
+                                    "ref": 49
+                                },
+                                {
+                                    "ref": 48
+                                },
+                                {
+                                    "ref": 32
+                                },
+                                {
+                                    "ref": 23
+                                },
+                                {
+                                    "ref": 11
+                                }
+                            ],
+                            "taxSummaries": [
+                                {
+                                    "ref": 61
+                                },
+                                {
+                                    "ref": 49
+                                },
+                                {
+                                    "ref": 9
+                                },
+                                {
+                                    "ref": 27
+                                },
+                                {
+                                    "ref": 19
+                                },
+                                {
+                                    "ref": 56
+                                },
+                                {
+                                    "ref": 1
+                                }
+                            ],
+                            "currencyConversion": {
+                                "from": "USD",
+                                "to": "BDT",
+                                "exchangeRateUsed": 117
+                            },
+                            "passengerTotalFare": {
+                                "totalFare": 35166,
+                                "totalTaxAmount": 9426,
+                                "currency": "BDT",
+                                "baseFareAmount": 220,
+                                "baseFareCurrency": "USD",
+                                "equivalentAmount": 25740,
+                                "equivalentCurrency": "BDT",
+                                "constructionAmount": 220,
+                                "constructionCurrency": "NUC",
+                                "exchangeRateOne": 1,
+                                "discountPercentage": "7.00",
+                                "discountAmount": 1802,
+                                "netBaseFareAmount": 23938.2,
+                                "netTotalFareAmount": 33364.2
+                            },
+                            "baggageInformation": [
+                                {
+                                    "provisionType": "A",
+                                    "airlineCode": "BS",
+                                    "segments": [
+                                        {
+                                            "id": 0
+                                        }
+                                    ],
+                                    "allowance": {
+                                        "ref": 16
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "priceBreakDown": [
+                {
+                    "passengerInfo": {
+                        "passengerType": "ADT",
+                        "passengerNumber": 1,
+                        "nonRefundable": false,
+                        "fareComponents": [
+                            {
+                                "ref": 1,
+                                "beginAirport": "DAC",
+                                "endAirport": "DXB",
+                                "segments": [
+                                    {
+                                        "segment": {
+                                            "bookingCode": "S",
+                                            "cabinCode": "Y",
+                                            "seatsAvailable": 9,
+                                            "availabilityBreak": true
+                                        }
+                                    }
+                                ],
+                                "details": {
+                                    "id": 1,
+                                    "governingCarrier": "BS",
+                                    "fareAmount": 220,
+                                    "fareCurrency": "NUC",
+                                    "fareBasisCode": "SBDXBO",
+                                    "farePassengerType": "ADT",
+                                    "publishedFareAmount": 220,
+                                    "publishedFareCurrency": "USD",
+                                    "directionality": "FROM",
+                                    "applicablePricingCategories": "4 5 8 10 14 15 16 31 33",
+                                    "vendorCode": "ATP",
+                                    "fareTypeBitmap": "00",
+                                    "fareType": "ER",
+                                    "fareTariff": "33",
+                                    "fareRule": "ME12",
+                                    "cabinCode": "Y",
+                                    "segments": [
+                                        {
+                                            "segment": {
+                                                "stopover": true
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "taxes": [
+                            {
+                                "ref": 1
+                            },
+                            {
+                                "ref": 69
+                            },
+                            {
+                                "ref": 49
+                            },
+                            {
+                                "ref": 48
+                            },
+                            {
+                                "ref": 32
+                            },
+                            {
+                                "ref": 23
+                            },
+                            {
+                                "ref": 11
+                            }
+                        ],
+                        "taxSummaries": [
+                            {
+                                "ref": 61
+                            },
+                            {
+                                "ref": 49
+                            },
+                            {
+                                "ref": 9
+                            },
+                            {
+                                "ref": 27
+                            },
+                            {
+                                "ref": 19
+                            },
+                            {
+                                "ref": 56
+                            },
+                            {
+                                "ref": 1
+                            }
+                        ],
+                        "currencyConversion": {
+                            "from": "USD",
+                            "to": "BDT",
+                            "exchangeRateUsed": 117
+                        },
+                        "passengerTotalFare": {
+                            "totalFare": 35166,
+                            "totalTaxAmount": 9426,
+                            "currency": "BDT",
+                            "baseFareAmount": 220,
+                            "baseFareCurrency": "USD",
+                            "equivalentAmount": 25740,
+                            "equivalentCurrency": "BDT",
+                            "constructionAmount": 220,
+                            "constructionCurrency": "NUC",
+                            "exchangeRateOne": 1,
+                            "discountPercentage": "7.00",
+                            "discountAmount": 1802,
+                            "netBaseFareAmount": 23938.2,
+                            "netTotalFareAmount": 33364.2
+                        },
+                        "baggageInformation": [
+                            {
+                                "provisionType": "A",
+                                "airlineCode": "BS",
+                                "segments": [
+                                    {
+                                        "id": 0
+                                    }
+                                ],
+                                "allowance": {
+                                    "ref": 16
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "totalPrice": {
+                "totalPrice": 35166,
+                "totalTaxAmount": 9426,
+                "currency": "BDT",
+                "baseFareAmount": 220,
+                "baseFareCurrency": "USD",
+                "constructionAmount": 220,
+                "constructionCurrency": "NUC",
+                "equivalentAmount": 25740,
+                "equivalentCurrency": "BDT"
+            },
+            "baggageInfo": [
+                {
+                    "paxType": "ADT",
+                    "details": [
+                        {
+                            "id": 16,
+                            "weight": 30,
+                            "unit": "kg",
+                            "airlineCode": "BS",
+                            "pieceCount": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "pricingSource": "ADVJR1",
+            "legs": [
+                {
+                    "ref": 53,
+                    "segment": {
+                        "departureDate": "2024-06-01",
+                        "departureLocation": "DAC",
+                        "arrivalLocation": "DXB"
+                    },
+                    "segmentDetails": [
+                        {
+                            "id": 39,
+                            "frequency": "******S",
+                            "stopCount": 1,
+                            "eTicketable": true,
+                            "totalMilesFlown": 2451,
+                            "elapsedTime": 435,
+                            "hiddenStops": [
+                                {
+                                    "airport": "CGP",
+                                    "city": "CGP",
+                                    "country": "BD",
+                                    "arrivalTime": "07:00:00+06:00",
+                                    "departureTime": "07:45:00+06:00",
+                                    "airMiles": 2312,
+                                    "elapsedTime": 45,
+                                    "elapsedLayoverTime": 45,
+                                    "equipment": "738"
+                                }
+                            ],
+                            "departureDateAdjustment": 0,
+                            "origin": {
+                                "airport": "DAC",
+                                "city": "DAC",
+                                "country": "BD",
+                                "terminal": "1",
+                                "dateTime": "2024-06-01 06:15:00",
+                                "timeZone": "+06:00"
+                            },
+                            "destination": {
+                                "airport": "DXB",
+                                "city": "DXB",
+                                "country": "AE",
+                                "terminal": "1",
+                                "dateTime": "2024-06-01 11:30:00",
+                                "timeZone": "+04:00"
+                            },
+                            "fleet": {
+                                "marketing": "BS",
+                                "marketingFlightNumber": 343,
+                                "operating": "BS",
+                                "operatingFlightNumber": 343,
+                                "equipment": {
+                                    "code": "738",
+                                    "typeForFirstLeg": "N",
+                                    "typeForLastLeg": "N"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "pricingInformation": [
+                {
+                    "pricingSubsource": "HPIS",
+                    "fare": {
+                        "validatingCarrierCode": "BS",
+                        "vita": true,
+                        "eTicketable": true,
+                        "lastTicketDate": "2024-05-16",
+                        "lastTicketTime": "23:59",
+                        "governingCarriers": "BS",
+                        "passengerInfoList": [
+                            {
+                                "passengerInfo": {
+                                    "passengerType": "ADT",
+                                    "passengerNumber": 1,
+                                    "nonRefundable": false,
+                                    "fareComponents": [
+                                        {
+                                            "ref": 1,
+                                            "beginAirport": "DAC",
+                                            "endAirport": "DXB",
+                                            "segments": [
+                                                {
+                                                    "segment": {
+                                                        "bookingCode": "S",
+                                                        "cabinCode": "Y",
+                                                        "seatsAvailable": 9,
+                                                        "availabilityBreak": true
+                                                    }
+                                                }
+                                            ],
+                                            "details": {
+                                                "id": 1,
+                                                "governingCarrier": "BS",
+                                                "fareAmount": 220,
+                                                "fareCurrency": "NUC",
+                                                "fareBasisCode": "SBDXBO",
+                                                "farePassengerType": "ADT",
+                                                "publishedFareAmount": 220,
+                                                "publishedFareCurrency": "USD",
+                                                "directionality": "FROM",
+                                                "applicablePricingCategories": "4 5 8 10 14 15 16 31 33",
+                                                "vendorCode": "ATP",
+                                                "fareTypeBitmap": "00",
+                                                "fareType": "ER",
+                                                "fareTariff": "33",
+                                                "fareRule": "ME12",
+                                                "cabinCode": "Y",
+                                                "segments": [
+                                                    {
+                                                        "segment": {
+                                                            "stopover": true
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "taxes": [
+                                        {
+                                            "ref": 69
+                                        },
+                                        {
+                                            "ref": 49
+                                        },
+                                        {
+                                            "ref": 48
+                                        },
+                                        {
+                                            "ref": 32
+                                        },
+                                        {
+                                            "ref": 23
+                                        },
+                                        {
+                                            "ref": 11
+                                        },
+                                        {
+                                            "ref": 52
+                                        }
+                                    ],
+                                    "taxSummaries": [
+                                        {
+                                            "ref": 61
+                                        },
+                                        {
+                                            "ref": 49
+                                        },
+                                        {
+                                            "ref": 9
+                                        },
+                                        {
+                                            "ref": 27
+                                        },
+                                        {
+                                            "ref": 19
+                                        },
+                                        {
+                                            "ref": 56
+                                        },
+                                        {
+                                            "ref": 42
+                                        }
+                                    ],
+                                    "currencyConversion": {
+                                        "from": "USD",
+                                        "to": "BDT",
+                                        "exchangeRateUsed": 117
+                                    },
+                                    "passengerTotalFare": {
+                                        "totalFare": 35166,
+                                        "totalTaxAmount": 9426,
+                                        "currency": "BDT",
+                                        "baseFareAmount": 220,
+                                        "baseFareCurrency": "USD",
+                                        "equivalentAmount": 25740,
+                                        "equivalentCurrency": "BDT",
+                                        "constructionAmount": 220,
+                                        "constructionCurrency": "NUC",
+                                        "exchangeRateOne": 1,
+                                        "discountPercentage": "7.00",
+                                        "discountAmount": 1802,
+                                        "netBaseFareAmount": 23938.2,
+                                        "netTotalFareAmount": 33364.2
+                                    },
+                                    "baggageInformation": [
+                                        {
+                                            "provisionType": "A",
+                                            "airlineCode": "BS",
+                                            "segments": [
+                                                {
+                                                    "id": 0
+                                                }
+                                            ],
+                                            "allowance": {
+                                                "ref": 16
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "totalFare": {
+                            "totalPrice": 35166,
+                            "totalTaxAmount": 9426,
+                            "currency": "BDT",
+                            "baseFareAmount": 220,
+                            "baseFareCurrency": "USD",
+                            "constructionAmount": 220,
+                            "constructionCurrency": "NUC",
+                            "equivalentAmount": 25740,
+                            "equivalentCurrency": "BDT"
+                        }
+                    }
+                }
+            ],
+            "diversitySwapper": {
+                "weighedPrice": 42199.2
+            },
+            "nonRefundable": false,
+            "validatingCarrierCode": "BS",
+            "priceBreakDownWithMarkup": {
+                "userType": 3,
+                "airlineId": "204",
+                "airlineCode": "BS",
+                "commission_percentage": "7.00",
+                "commission_type": "outbound",
+                "service_charge": "200",
+                "totalFare": {
+                    "netTotalFareAmount": 33670,
+                    "netTotalBaseFareAmount": 25740,
+                    "netTotalDiscountAmount": 1802,
+                    "netTotalGrossFareAmount": 35166,
+                    "netTotalFareTaxAmount": 9731
+                },
+                "fareDetails": [
+                    {
+                        "passengerInfo": {
+                            "passengerType": "ADT",
+                            "passengerNumber": 1,
+                            "nonRefundable": false,
+                            "fareComponents": [
+                                {
+                                    "ref": 1,
+                                    "beginAirport": "DAC",
+                                    "endAirport": "DXB",
+                                    "segments": [
+                                        {
+                                            "segment": {
+                                                "bookingCode": "S",
+                                                "cabinCode": "Y",
+                                                "seatsAvailable": 9,
+                                                "availabilityBreak": true
+                                            }
+                                        }
+                                    ],
+                                    "details": {
+                                        "id": 1,
+                                        "governingCarrier": "BS",
+                                        "fareAmount": 220,
+                                        "fareCurrency": "NUC",
+                                        "fareBasisCode": "SBDXBO",
+                                        "farePassengerType": "ADT",
+                                        "publishedFareAmount": 220,
+                                        "publishedFareCurrency": "USD",
+                                        "directionality": "FROM",
+                                        "applicablePricingCategories": "4 5 8 10 14 15 16 31 33",
+                                        "vendorCode": "ATP",
+                                        "fareTypeBitmap": "00",
+                                        "fareType": "ER",
+                                        "fareTariff": "33",
+                                        "fareRule": "ME12",
+                                        "cabinCode": "Y",
+                                        "segments": [
+                                            {
+                                                "segment": {
+                                                    "stopover": true
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "taxes": [
+                                {
+                                    "ref": 69
+                                },
+                                {
+                                    "ref": 49
+                                },
+                                {
+                                    "ref": 48
+                                },
+                                {
+                                    "ref": 32
+                                },
+                                {
+                                    "ref": 23
+                                },
+                                {
+                                    "ref": 11
+                                },
+                                {
+                                    "ref": 52
+                                }
+                            ],
+                            "taxSummaries": [
+                                {
+                                    "ref": 61
+                                },
+                                {
+                                    "ref": 49
+                                },
+                                {
+                                    "ref": 9
+                                },
+                                {
+                                    "ref": 27
+                                },
+                                {
+                                    "ref": 19
+                                },
+                                {
+                                    "ref": 56
+                                },
+                                {
+                                    "ref": 42
+                                }
+                            ],
+                            "currencyConversion": {
+                                "from": "USD",
+                                "to": "BDT",
+                                "exchangeRateUsed": 117
+                            },
+                            "passengerTotalFare": {
+                                "totalFare": 35166,
+                                "totalTaxAmount": 9426,
+                                "currency": "BDT",
+                                "baseFareAmount": 220,
+                                "baseFareCurrency": "USD",
+                                "equivalentAmount": 25740,
+                                "equivalentCurrency": "BDT",
+                                "constructionAmount": 220,
+                                "constructionCurrency": "NUC",
+                                "exchangeRateOne": 1,
+                                "discountPercentage": "7.00",
+                                "discountAmount": 1802,
+                                "netBaseFareAmount": 23938.2,
+                                "netTotalFareAmount": 33364.2
+                            },
+                            "baggageInformation": [
+                                {
+                                    "provisionType": "A",
+                                    "airlineCode": "BS",
+                                    "segments": [
+                                        {
+                                            "id": 0
+                                        }
+                                    ],
+                                    "allowance": {
+                                        "ref": 16
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "priceBreakDown": [
+                {
+                    "passengerInfo": {
+                        "passengerType": "ADT",
+                        "passengerNumber": 1,
+                        "nonRefundable": false,
+                        "fareComponents": [
+                            {
+                                "ref": 1,
+                                "beginAirport": "DAC",
+                                "endAirport": "DXB",
+                                "segments": [
+                                    {
+                                        "segment": {
+                                            "bookingCode": "S",
+                                            "cabinCode": "Y",
+                                            "seatsAvailable": 9,
+                                            "availabilityBreak": true
+                                        }
+                                    }
+                                ],
+                                "details": {
+                                    "id": 1,
+                                    "governingCarrier": "BS",
+                                    "fareAmount": 220,
+                                    "fareCurrency": "NUC",
+                                    "fareBasisCode": "SBDXBO",
+                                    "farePassengerType": "ADT",
+                                    "publishedFareAmount": 220,
+                                    "publishedFareCurrency": "USD",
+                                    "directionality": "FROM",
+                                    "applicablePricingCategories": "4 5 8 10 14 15 16 31 33",
+                                    "vendorCode": "ATP",
+                                    "fareTypeBitmap": "00",
+                                    "fareType": "ER",
+                                    "fareTariff": "33",
+                                    "fareRule": "ME12",
+                                    "cabinCode": "Y",
+                                    "segments": [
+                                        {
+                                            "segment": {
+                                                "stopover": true
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "taxes": [
+                            {
+                                "ref": 69
+                            },
+                            {
+                                "ref": 49
+                            },
+                            {
+                                "ref": 48
+                            },
+                            {
+                                "ref": 32
+                            },
+                            {
+                                "ref": 23
+                            },
+                            {
+                                "ref": 11
+                            },
+                            {
+                                "ref": 52
+                            }
+                        ],
+                        "taxSummaries": [
+                            {
+                                "ref": 61
+                            },
+                            {
+                                "ref": 49
+                            },
+                            {
+                                "ref": 9
+                            },
+                            {
+                                "ref": 27
+                            },
+                            {
+                                "ref": 19
+                            },
+                            {
+                                "ref": 56
+                            },
+                            {
+                                "ref": 42
+                            }
+                        ],
+                        "currencyConversion": {
+                            "from": "USD",
+                            "to": "BDT",
+                            "exchangeRateUsed": 117
+                        },
+                        "passengerTotalFare": {
+                            "totalFare": 35166,
+                            "totalTaxAmount": 9426,
+                            "currency": "BDT",
+                            "baseFareAmount": 220,
+                            "baseFareCurrency": "USD",
+                            "equivalentAmount": 25740,
+                            "equivalentCurrency": "BDT",
+                            "constructionAmount": 220,
+                            "constructionCurrency": "NUC",
+                            "exchangeRateOne": 1,
+                            "discountPercentage": "7.00",
+                            "discountAmount": 1802,
+                            "netBaseFareAmount": 23938.2,
+                            "netTotalFareAmount": 33364.2
+                        },
+                        "baggageInformation": [
+                            {
+                                "provisionType": "A",
+                                "airlineCode": "BS",
+                                "segments": [
+                                    {
+                                        "id": 0
+                                    }
+                                ],
+                                "allowance": {
+                                    "ref": 16
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "totalPrice": {
+                "totalPrice": 35166,
+                "totalTaxAmount": 9426,
+                "currency": "BDT",
+                "baseFareAmount": 220,
+                "baseFareCurrency": "USD",
+                "constructionAmount": 220,
+                "constructionCurrency": "NUC",
+                "equivalentAmount": 25740,
+                "equivalentCurrency": "BDT"
+            },
+            "baggageInfo": [
+                {
+                    "paxType": "ADT",
+                    "details": [
+                        {
+                            "id": 16,
+                            "weight": 30,
+                            "unit": "kg",
+                            "airlineCode": "BS",
+                            "pieceCount": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
