@@ -44,7 +44,7 @@ const FlightCards = ({ flights, loading }) => {
         let totalMinutes = 0;
 
         segmentDetails.forEach(segment => {
-            totalMinutes += segment.elapsedTime;
+            totalMinutes += segment?.elapsedTime;
         });
 
         const hours = Math.floor(totalMinutes / 60);
@@ -59,7 +59,7 @@ const FlightCards = ({ flights, loading }) => {
                 <div key={flight.id} className='border rounded-lg shadow-md'>
                     <section className='md:flex justify-between items-center p-4'>
                         <div>
-                            <p className='text-sm text-gray-600 mb-2'>{formatDate(flight.legs[0].segment.departureDate)}</p>
+                            <p className='text-sm text-gray-600 mb-2'>{formatDate(flight.legs[0].segment?.departureDate)}</p>
                             <img src="/flag.gif" alt="" />
                             <p className='text-sm text-gray-600'>{flight.legs[0].segmentDetails[0].fleet.marketing} ({flight.legs[0].segmentDetails[0].fleet.marketingFlightNumber})</p>
                             <p className='text-sm text-gray-600'>Singapore Airl</p>
@@ -67,14 +67,14 @@ const FlightCards = ({ flights, loading }) => {
 
                         <div>
                             <h5 className='text-xl font-bold'>{formatToHHMM(flight.legs[0].segmentDetails[0].origin.dateTime, flight.legs[0].segmentDetails[0].origin.timeZone)}</h5>
-                            <p className='text-sm text-gray-600'>{flight.legs[0].segment.departureLocation}</p>
+                            <p className='text-sm text-gray-600'>{flight.legs[0].segment?.departureLocation}</p>
                         </div>
 
                         <div>
                             <div className='flex items-center justify-center gap-2'>
-                                <p>{flight.legs[0].segment.departureLocation}</p>
+                                <p>{flight.legs[0].segment?.departureLocation}</p>
                                 <img src="/plane-flight.png" alt="" />
-                                <p>{flight.legs[0].segment.arrivalLocation}</p>
+                                <p>{flight.legs[0].segment?.arrivalLocation}</p>
                             </div>
                             <div className='flex items-center justify-center gap-2 my-1'>
                                 <p className='border px-2 py-0.5 rounded-md'>One Stop</p>
@@ -89,7 +89,7 @@ const FlightCards = ({ flights, loading }) => {
 
                         <div>
                             <h5 className='text-xl font-bold'>{formatToHHMM(flight.legs[0].segmentDetails[flight.legs[0].segmentDetails.length - 1].destination.dateTime, flight.legs[0].segmentDetails[flight.legs[0].segmentDetails.length - 1].destination.timeZone)}</h5>
-                            <p className='text-sm text-gray-600'>{flight.legs[0].segment.arrivalLocation}</p>
+                            <p className='text-sm text-gray-600'>{flight.legs[0].segment?.arrivalLocation}</p>
                         </div>
 
                         <div>
@@ -120,9 +120,9 @@ const FlightCards = ({ flights, loading }) => {
                     {expandedCard === flight.id && (
                         <section className="p-4 border-b-4 border-b-[#3C6382] rounded-lg">
                             <div className='flex items-center bg-[#0A3D62] w-fit px-8 py-1 text-white gap-2'>
-                                <p>{flight.legs[0].segment.departureLocation}</p>
+                                <p>{flight.legs[0].segment?.departureLocation}</p>
                                 <img className='w-[20px]' src="/aro-icon.png" alt="" />
-                                <p>{flight.legs[0].segment.arrivalLocation}</p>
+                                <p>{flight.legs[0].segment?.arrivalLocation}</p>
                             </div>
                             <hr />
                             {
@@ -132,12 +132,12 @@ const FlightCards = ({ flights, loading }) => {
                                             <img src="/flag.gif" alt="" />
                                         </div>
                                         <div>
-                                            <p className='text-sm text-gray-600'>{segment.fleet.marketing}</p>
-                                            <p className='text-sm text-gray-600'>Aircraft: {segment.fleet.marketingFlightNumber}</p>
+                                            <p className='text-sm text-gray-600'>{segment?.fleet.marketing}</p>
+                                            <p className='text-sm text-gray-600'>Aircraft: {segment?.fleet.marketingFlightNumber}</p>
                                         </div>
                                         <div>
-                                            <p className='text-sm text-gray-600'>{segment.origin.dateTime}</p>
-                                            <p className='text-sm text-gray-600'>{segment.origin.airport}</p>
+                                            <p className='text-sm text-gray-600'>{segment?.origin.dateTime}</p>
+                                            <p className='text-sm text-gray-600'>{segment?.origin.airport}</p>
                                         </div>
                                         <div>
                                             <p className='border px-2 py-0.5 rounded-md w-fit'>Economy</p>
@@ -145,19 +145,19 @@ const FlightCards = ({ flights, loading }) => {
 
                                         <div className='flex flex-col justify-between'>
                                             <div className='mb-5'>
-                                                <p className='text-sm text-gray-600'>{segment.destination.dateTime}</p>
-                                                <p className='text-sm text-gray-600'>{segment.destination.airport}</p>
+                                                <p className='text-sm text-gray-600'>{segment?.destination.dateTime}</p>
+                                                <p className='text-sm text-gray-600'>{segment?.destination.airport}</p>
                                             </div>
                                             <div className='border-l pl-2'>
-                                                <p className='text-sm text-gray-600'>Available Seat : {flight.pricingInformation[0].fare.passengerInfoList[0].passengerInfo.fareComponents[0].segments[idx].segment.seatsAvailable}</p>
-                                                <p className='text-sm text-gray-600'>Cabin: {flight.pricingInformation[0].fare.passengerInfoList[0].passengerInfo.fareComponents[0].segments[idx].segment.cabinCode} ( rbd: {flight.pricingInformation[0].fare.passengerInfoList[0].passengerInfo.fareComponents[0].segments[idx].segment.bookingCode})</p>
+                                                <p className='text-sm text-gray-600'>Available Seat : {flight.pricingInformation[0].fare.passengerInfoList[0].passengerInfo.fareComponents[0].segments[idx]?.segment?.seatsAvailable}</p>
+                                                <p className='text-sm text-gray-600'>Cabin: {flight.pricingInformation[0].fare.passengerInfoList[0].passengerInfo.fareComponents[0].segments[idx]?.segment?.cabinCode} ( rbd: {flight.pricingInformation[0].fare.passengerInfoList[0].passengerInfo.fareComponents[0].segments[idx]?.segment?.bookingCode})</p>
                                             </div>
                                         </div>
 
                                         <div className='flex flex-col justify-between'>
                                             <div className='mb-5'>
-                                                <p className='text-sm text-gray-600'>{segment.fleet.operating}</p>
-                                                <p className='text-sm text-gray-600'>{segment.fleet.operatingFlightNumber}</p>
+                                                <p className='text-sm text-gray-600'>{segment?.fleet.operating}</p>
+                                                <p className='text-sm text-gray-600'>{segment?.fleet.operatingFlightNumber}</p>
                                             </div>
                                             <div className='border-l pl-2'>
                                                 <p className='text-sm text-gray-600'>Baggage</p>
