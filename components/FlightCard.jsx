@@ -17,6 +17,7 @@ const FlightCards = ({flights,loading}) => {
         return <div>Error: {error.message}</div>;
     }
     
+    // Formate Date 
     const formatDate = (dateString) => {
         const date = new Date(dateString);
         const options = { weekday: 'long', month: 'long', day: 'numeric' };
@@ -24,6 +25,7 @@ const FlightCards = ({flights,loading}) => {
     };
     
 
+    // Formate Date and Time 
     const formatToHHMM = (dateTime, timeZone) => {
         const date = new Date(`${dateTime}${timeZone}`);
         const utcDate = new Date(date.toUTCString());
@@ -32,6 +34,7 @@ const FlightCards = ({flights,loading}) => {
         return `${hours}:${minutes}`;
     };
 
+    // Formating Flight total hours 
     const calculateTotalElapsedTime = (segmentDetails) => {
         let totalMinutes = 0;
 

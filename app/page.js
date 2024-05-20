@@ -78,7 +78,8 @@ export default function Example() {
     <div className="bg-white mt-1">
       <div>
         <main className="">
-          <Hero/>
+          {/* Hero Section */}
+          <Hero />
           <section aria-labelledby="products-heading" className="pb-24 pt-6 mx-auto w-11/12">
             <div className="grid grid-cols-1 lg:grid-cols-5">
               {/* Forms */}
