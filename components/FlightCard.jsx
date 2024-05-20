@@ -1,7 +1,8 @@
 'use client'
 import React, { useState } from 'react';
+import Skeleton from './Skeleton';
 
-const FlightCards = ({flights,loading}) => {
+const FlightCards = ({ flights, loading }) => {
     const [error, setError] = useState(null);
     const [expandedCard, setExpandedCard] = useState(null);
 
@@ -10,20 +11,24 @@ const FlightCards = ({flights,loading}) => {
     };
 
     if (loading) {
-        return <div>Loading...</div>;
+        return (
+            <div className='w-11/12 mx-auto'>
+                <Skeleton />
+            </div>
+        );
     }
 
     if (error) {
         return <div>Error: {error.message}</div>;
     }
-    
+
     // Formate Date 
     const formatDate = (dateString) => {
         const date = new Date(dateString);
         const options = { weekday: 'long', month: 'long', day: 'numeric' };
         return date.toLocaleDateString('en-US', options);
     };
-    
+
 
     // Formate Date and Time 
     const formatToHHMM = (dateTime, timeZone) => {
