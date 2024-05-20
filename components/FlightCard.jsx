@@ -1,31 +1,9 @@
 'use client'
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 
-const FlightCards = () => {
-    const [flights, setFlights] = useState([]);
-    const [loading, setLoading] = useState(true);
+const FlightCards = ({flights,loading}) => {
     const [error, setError] = useState(null);
     const [expandedCard, setExpandedCard] = useState(null);
-
-    useEffect(() => {
-        const fetchFlightData = async () => {
-            try {
-                const response = await fetch('/zoo-flight-search.json');
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-                const data = await response.json();
-                console.log(data.result)
-                setFlights(data.result);
-                setLoading(false);
-            } catch (error) {
-                setError(error);
-                setLoading(false);
-            }
-        };
-
-        fetchFlightData();
-    }, []);
 
     const toggleDetails = (id) => {
         setExpandedCard(expandedCard === id ? null : id);
@@ -38,7 +16,7 @@ const FlightCards = () => {
     if (error) {
         return <div>Error: {error.message}</div>;
     }
-
+    
     const formatDate = (dateString) => {
         const date = new Date(dateString);
         const options = { weekday: 'long', month: 'long', day: 'numeric' };
@@ -71,7 +49,7 @@ const FlightCards = () => {
         <div className="grid grid-cols-1 w-11/12 mx-auto gap-5">
             {flights.map(flight => (
                 <div key={flight.id} className='border rounded-lg shadow-md'>
-                    <section className='flex justify-between items-center p-4'>
+                    <section className='md:flex justify-between items-center p-4'>
                         <div>
                             <p className='text-sm text-gray-600 mb-2'>{formatDate(flight.legs[0].segment.departureDate)}</p>
                             <img src="/flag.gif" alt="" />
@@ -141,7 +119,7 @@ const FlightCards = () => {
                             <hr />
                             {
                                 flight.legs[0].segmentDetails.map((segment, idx) => (
-                                    <div className='flex justify-between py-4 border-b'>
+                                    <div className='md:flex justify-between py-4 border-b'>
                                         <div>
                                             <img src="/flag.gif" alt="" />
                                         </div>
@@ -154,7 +132,7 @@ const FlightCards = () => {
                                             <p className='text-sm text-gray-600'>{segment.origin.airport}</p>
                                         </div>
                                         <div>
-                                            <p className='border px-2 py-0.5 rounded-md'>Economy</p>
+                                            <p className='border px-2 py-0.5 rounded-md w-fit'>Economy</p>
                                         </div>
 
                                         <div className='flex flex-col justify-between'>
