@@ -39,14 +39,14 @@ I have spent approximately 4-5 hours working on this project.
 
 ## Best Practices Implemented:
 
-    * Implemented clean and organized code structure.
-    * Utilized component-based architecture for better reusability.
-    * Followed coding standards and conventions.
-    * Integrated responsive design for better user experience across devices.
-    * Used meaningful variable and function names for improved readability.
-    * Ensured proper error handling and validation.
-    * Conducted thorough testing and debugging.
-    * Documented code and provided clear comments for better maintainability.
+    - Implemented clean and organized code structure.
+    - Utilized component-based architecture for better reusability.
+    - Followed coding standards and conventions.
+    - Integrated responsive design for better user experience across devices.
+    - Used meaningful variable and function names for improved readability.
+    - Ensured proper error handling and validation.
+    - Conducted thorough testing and debugging.
+    - Documented code and provided clear comments for better maintainability.
 
 ## Some of My Best frontend projects Link:
 
